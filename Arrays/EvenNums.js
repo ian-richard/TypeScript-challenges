@@ -1,3 +1,4 @@
+"use strict";
 function evenNumbers(array, n) {
     return array.filter(function (x) { return x % 2 === 0; }).slice(-n);
 }

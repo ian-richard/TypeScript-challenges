@@ -1,9 +1,12 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 exports.getGrade = void 0;
 function getGrade(a, b, c) {
     var avg = (a + b + c) / 3;
-    return avg < 60 ? "F" : avg < 70 ? "D" : avg < 80 ? "C" : avg < 90 ? "B" : "A";
+    return avg < 60 ? "F" :
+        avg < 70 ? "D" :
+            avg < 80 ? "C" :
+                avg < 90 ? "B" : "A";
 }
 exports.getGrade = getGrade;
 console.log(getGrade(100, 100, 100) === 'A');
