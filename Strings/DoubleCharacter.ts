@@ -1,7 +1,8 @@
 const doubleChar = (str: string): string =>
   str
     .split('')
-    .map(c => c.repeat(2))
+    // .map(c => c.repeat(2))
+    .map(c => c + c)
     .join('');
 
 
