@@ -6,7 +6,7 @@ function gooseFilter(birds) {
     return birds.filter(function (b) { return geese.indexOf(b) < 0; });
 }
 exports.gooseFilter = gooseFilter;
-console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"]));
+console.log(gooseFilter(["Mallard", "Hook Bill", "African", "Crested", "Pilgrim", "Toulouse", "Blue Swedish"])); //== // ["Mallard", "Hook Bill", "Crested", "Blue Swedish"]
 //   Description:
 // Write a function, gooseFilter / goose-filter / goose_filter / GooseFilter, that takes an array of strings as an 
 //argument and returns a filtered array containing the same elements but with the 'geese' removed.
