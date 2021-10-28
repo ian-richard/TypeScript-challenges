@@ -1,3 +1,4 @@
+"use strict";
 var doubleChar = function (str) {
     return str
         .split('')
@@ -7,6 +8,7 @@ var doubleChar = function (str) {
 console.log(doubleChar("illuminati") === "iilllluummiinnaattii");
 console.log(doubleChar("123456") === "112233445566");
 console.log(doubleChar("%^&*(") === "%%^^&&**((");
+
 // Description:
 // Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
 // double_char("String") ==> "SSttrriinngg"
